@@ -8,7 +8,7 @@
             "name": "C++ debugger",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -19,7 +19,7 @@
             "name": "Python debugger",
             "type": "python",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.py",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.py",
             "console": "integratedTerminal"
           }
     ]

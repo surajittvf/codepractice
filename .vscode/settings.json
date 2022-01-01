@@ -1,3 +1,5 @@
 {
-  "python.defaultInterpreterPath": "C:\\ProgramData\\Anaconda3\\envs\\py39\\python.exe"
+  "python.defaultInterpreterPath": "/Users/surajit/opt/anaconda3/envs/py39/bin/python",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "Hack Nerd Font"
 }
