@@ -8,10 +8,11 @@
             "name": "C++ Debugger",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+            //"program": "${fileDirname}/${fileBasenameNoExtension}.out",
+            "program": "${workspaceFolder}/test.out",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
@@ -21,7 +22,8 @@
             "name": "Python debugger",
             "type": "python",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}.py",
+            //"program": "${fileDirname}/${fileBasenameNoExtension}.py",
+            "program": "${workspaceFolder}/test.py",
             "console": "integratedTerminal"
           }
     ]
