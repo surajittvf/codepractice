@@ -14,6 +14,13 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "preLaunchTask": "BuilderTask"
-        }
+        },
+        {
+            "name": "Python debugger",
+            "type": "python",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.py",
+            "console": "integratedTerminal"
+          }
     ]
 }
