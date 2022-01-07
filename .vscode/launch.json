@@ -13,7 +13,8 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "preLaunchTask": "BuilderTask"
+            "preLaunchTask": "BuilderTask",
+            "console": "integratedTerminal"
         },
         {
             "name": "Python debugger",
