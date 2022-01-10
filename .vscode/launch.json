@@ -14,9 +14,9 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "BuildTask"
+            "preLaunchTask": "BuildTask",
+            "externalConsole": false
         },
         {
             "name": "Python debugger",
@@ -24,7 +24,7 @@
             "request": "launch",
             //"program": "${fileDirname}/${fileBasenameNoExtension}.py",
             "program": "${workspaceFolder}/test.py",
-            "console": "integratedTerminal"
+            "externalConsole": false
           }
     ]
 }

@@ -1,5 +1,9 @@
 {
   "python.defaultInterpreterPath": "/Users/surajit/opt/anaconda3/envs/py39/bin/python",
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontFamily": "Hack Nerd Font"
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }
