@@ -8,8 +8,7 @@
             "name": "C++ Debugger",
             "type": "cppdbg",
             "request": "launch",
-            //"program": "${fileDirname}/${fileBasenameNoExtension}.out",
-            "program": "${workspaceFolder}/test.out",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -22,8 +21,7 @@
             "name": "Python debugger",
             "type": "python",
             "request": "launch",
-            //"program": "${fileDirname}/${fileBasenameNoExtension}.py",
-            "program": "${workspaceFolder}/test.py",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.py",
             "externalConsole": false
           }
     ]

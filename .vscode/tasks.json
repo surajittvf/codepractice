@@ -6,12 +6,12 @@
             "label": "BuildTask",
             "command": "/usr/bin/g++",
             "args": [
+                "-std=c++11",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/test.cpp",
+                "${fileDirname}/${fileBasenameNoExtension}.cpp",
                 "-o",
-                //"${fileDirname}/${fileBasenameNoExtension}.out"
-                "${workspaceFolder}/test.out"
+                "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
